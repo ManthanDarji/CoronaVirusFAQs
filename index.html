@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+
+    <title>CoronaVirus Information</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body::before {
+            background: url(./img/bg1.jpg) no-repeat center center;
+            background-size: cover;
+            content: "";
+            position: absolute;
+            top: 0px;
+            height: 177%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.7;
+        }
+
+        nav {
+            display: flex;
+            background: black;
+            padding: 21px;
+            box-sizing: border-box;
+        }
+
+        nav li {
+            list-style: none;
+            padding: 0px 10px
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 5px 8px;
+            padding: 6px 7px;
+            font-size: 18px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        nav li a:hover {
+            text-decoration: none;
+            color: black;
+            border-radius: 6px;
+            background-color: white;
+            font-weight: bold;
+            margin: 5px 8px;
+            padding: 11px 7px;
+            font-size: 18px;
+        }
+
+        .container {
+            border: 4px solid black;
+            background-color: white;
+            margin: 12px auto;
+            max-width: 75%;
+            border-radius: 12px;
+            height: 154vh;
+            padding: 19px 25px;
+            outline: none;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        h1 {
+
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Baloo Bhai 2', cursive;
+            padding: 23px 0px;
+            margin-left: 5px;
+        }
+
+        ul {
+            margin: 0px 9px;
+            padding: 10px 22px;
+        }
+
+        .questions {
+            margin: 4px 5px;
+            padding: 14px 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item"><a href="#">MHFW Website</a></li>
+        <li class="item"><a href="#">Hospitals</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+    </nav>
+    <div class="container">
+        <h1>Covid-19 Stay Home Safe</h1>
+        <div class="box">
+            <h2>#StayHome - How to protect yourself</h2>
+            <p>
+                Government of India is taking all necessary steps to ensure that we are prepared well to face the
+                challenge and threat posed by the growing pandemic of COVID 19 – the Corona Virus. With active
+                support of the people of India, we have been able to contain the spread of the Virus in our country.
+                The most important factor in preventing the spread of the Virus locally is to empower the citizens
+                with the right information and taking precautions as per the advisories being issued by Ministry of
+                Health & Family Welfare.
+            </p>
+        </div>
+        <div class="box">
+            <h2>#Stay-How to protect yourself</h2>
+            <h3>Do's :</h3>
+            <ul>
+                <li>Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub</li>
+                <li>Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+                </li>
+                <li>Avoid close contact (1 meter or 3 feet) with people who are unwell</li>
+                <li>Stay home and self-isolate from others in the household if you feel unwell</li>
+            </ul>
+            <h3>Don'ts :    </h3>
+            <p>
+            <ul>
+                <li>
+                    Touch your eyes, nose, or mouth if your hands are not clean
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div class="box">
+            <h2>#FAQs - Frequently asked questions</h2>
+            <div class="questions">
+                <p> Q: What are the symptoms of the coronavirus disease?</p>
+                <p> A: The most common symptoms are fever, cough, shortness of breath, and breathing difficulties. In
+                    more severe cases infection can cause pneumonia, severe acute respiratory syndrome, and even death.
+                    The period within which the symptoms would appear is 2-14 days.</p>
+            </div>
+            <div class="questions">
+
+                <p>
+                    Q: What is the recovery time for the coronavirus disease?
+                </p>
+                <p>
+                    A: Using available preliminary data, the median time from onset to clinical recovery for mild cases
+                    is approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.
+                </p>
+            </div>
+            <div class="questions">
+
+                <p>
+                    Q: How long does the coronavirus last on surfaces?
+                </p>
+                <p>
+                    A: It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to
+                    behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary
+                    information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days.
+                </p>
+            </div>
+        </div>
+</body>
+
+</html>
